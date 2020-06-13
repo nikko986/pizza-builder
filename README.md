@@ -1,36 +1,18 @@
-# Pizza Builder
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
-and [Express.js](https://expressjs.com).
+# Pizza Builder makde with React and Typescript
+- This repository uses a React FrontEnd, a Node/Express BackEnd and are connected together.
 
-## Installation Instructions
+## About the app
+Actually, there are two separated apps. The Client which serves the FrontEnd (using React), and the API (in Node/Express).
 
-This project is made with Expressjs as server API and React for the frontend.
-React uses port:3000 and API uses port:3001.
-Two terminals are needed.
+## How to run the API
+1. In your terminal, navigate to the `api` directory.
+2. Run `npm install` to install all dependencies.
+3. Run `npm start` to start the app.
 
-## Setting up the server
-In the project directory:
+## How to run the Client
+1. In another terminal, navigate to the `client` directory.
+2. Run `npm install` to install all dependencies.
+3. Run `npm start` to start the app
 
-### `cd api`
-
-then run
-
-### `npm install`
-
-then run
-
-### `npm start`
-Server should now be running at port:3001
-
-## Setting up the view 
-
-### `cd client`
-
-then run
-
-### `npm install`
-
-then run
-
-### `npm start`
-Server should now be running at port:3000
+## Check if they are connected
+1. With the two apps running, open your browser in http://localhost:3000/

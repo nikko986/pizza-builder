@@ -1,7 +1,7 @@
 div#toppings {
     display: grid;
-    padding: 3em;
-    grid-gap: 2em;
+    padding: 1em;
+    grid-gap: 1em;
 }
 
 div#toppings h2 {
@@ -14,11 +14,10 @@ div#toppings h2 {
 div#topping-options {
     display: grid;
     grid-gap: 1em;
-    padding: 3em;
+    padding: 1em;
     margin-left: 40%;
     margin-right: 40%;
 }
-
 
 button.back {
     align-self: left;
@@ -27,4 +26,9 @@ button.back {
 
 button.toggled {
     background: #1b558e;
+}
+
+button.checkout {
+    margin-left: 40%;
+    margin-right: 40%;
 }

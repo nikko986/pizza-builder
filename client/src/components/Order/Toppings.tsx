@@ -71,7 +71,7 @@ export default function Toppings({previous, next, setPizza, maxToppings}: Toppin
     return(
         <div id="toppings">
             <button className="back" onClick={goBack}><img src={backImage} alt="Back" height="36px"/></button>
-            <h2>Choose your toppings({maxToppings} max):</h2>
+            <h2>Choose your toppings:</h2>
             <div id="topping-options">
                 {
                     pizzaToppings
@@ -79,7 +79,7 @@ export default function Toppings({previous, next, setPizza, maxToppings}: Toppin
                     : <span>Loading</span>
                 }
             </div>
-            <Button onClick={checkout}>Checkout</Button>
+            <Button type="primary" danger className="checkout" onClick={checkout}>Checkout</Button>
         </div>
     )
 } 

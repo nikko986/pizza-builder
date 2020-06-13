@@ -1,0 +1,9 @@
+div#size {
+    display: grid;
+    padding: 1em;
+    grid-gap: 1em;
+}
+
+div#size button {
+    margin-top: 1em;
+}

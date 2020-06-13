@@ -1,0 +1,30 @@
+div#toppings {
+    display: grid;
+    padding: 3em;
+    grid-gap: 2em;
+}
+
+div#toppings h2 {
+    background: white;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 1em;
+}
+
+div#topping-options {
+    display: grid;
+    grid-gap: 1em;
+    padding: 3em;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+
+button.back {
+    align-self: left;
+    width: fit-content;
+}
+
+button.toggled {
+    background: #1b558e;
+}

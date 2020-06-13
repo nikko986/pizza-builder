@@ -1,0 +1,16 @@
+div#summary {
+    margin-top: 5em;
+    display: inline-block;
+    text-align: center;
+}
+
+
+div#summary ul {
+    display: inline-block;
+    text-align: center;
+    margin-right: 3em;
+}
+
+div#summary ul li{
+    text-align: left;
+}
